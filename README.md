@@ -1,7 +1,4 @@
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/59b532d0adb04236993e83004b167bbb)](https://www.codacy.com/app/ariskoumis/missioncontrol2019?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=SJSURobotics2019/missioncontrol2019&amp;utm_campaign=Badge_Grade)
-[![Build Status](https://travis-ci.org/SJSURobotics2019/missioncontrol2019.svg?branch=master)](https://travis-ci.org/SJSURobotics2019/missioncontrol2019)
-
-# Mission Control 2019
+# Mission Control 2020
 
 ## Prerequisites
 - [node.js](https://nodejs.org/en/)
@@ -11,7 +8,7 @@
 1. Navigate to where you want to keep the folder (e.g. your desktop)
     - ```cd ~/Desktop```
 2. Clone the respository: 
-    - ```git clone https://github.com/SJSURobotics2019/missioncontrol2019```
+    - ```git clone https://github.com/SJSURoboticsTeam/MissionControl2020```
 3. Navigate into the repo
     - ```cd missioncontrol2019```
 4. Install dependencies using Node Package Manager (npm)
@@ -22,7 +19,7 @@
 6. At this point your browser should automatically open up the project
 
 ## Development Workflow
-1. In missioncontrol2019, create your own branch.
+1. In missioncontrol2020, create your own branch.
     - ```git checkout -b YOUR_BRANCH_NAME_HERE```
 2. Checkout your new branch
     - ```git checkout YOUR_BRANCH_NAME_HERE```
@@ -59,4 +56,4 @@ After all of that, you should be able to go to select your module from the dropd
     - **DO THIS EVERY TIME YOU START WRITING CODE FOR THE DAY!** If you don't you will likely cause [merge conflicts](https://help.github.com/articles/about-merge-conflicts/) in the future.
 
 ## Done with a module?
-[Submit a pull request](https://github.com/SJSURobotics2019/missioncontrol2019/compare?expand=1) to merge your branch into master. If it passes the tests and Evan approves of the changes, it will be merged.
+[Submit a pull request](https://github.com/SJSURoboticsTeam/MissionControl2020/compare?expand=1) to merge your branch into master. If it passes the tests and Evan approves of the changes, it will be merged.
