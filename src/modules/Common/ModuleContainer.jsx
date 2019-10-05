@@ -3,16 +3,7 @@ import Cookies from "universal-cookie";
 import ModuleSelect from "./ModuleSelect.jsx";
 import "../../lib/css/ModuleContainer.css";
 import ProtoModule from "../ProtoModule/ProtoModule.jsx";
-import MastModule from "../MastModule/MastModule.jsx";
-import ArmModule from "../ArmModule/ArmModule.jsx";
-import ScienceModule from "../Science/ScienceModule.jsx";
-import PowerModule from "../Power/PowerModule.jsx";
-import IntelligentSystemsModule from "../IntelligentSystems/IntelligentSystemsModule.jsx";
 import XHRTestModule from "../XHRTest/XHRTestModule.jsx";
-import CompassModule from "../CompassModule/CompassModule.jsx";
-import DriveModule from "../Drive/DriveModule.jsx";
-import LocationServicesModule from "../LocationServices/LocationServices.jsx";
-import VideoStreamModule from "../VideoStream/VideoStream.jsx";
 
 class ModuleContainer extends Component {
   constructor(props) {
@@ -48,26 +39,8 @@ class ModuleContainer extends Component {
     switch (moduleName) {
       case "proto-module":
         return <ProtoModule />;
-      case "mast-module":
-        return <MastModule />;
-      case "arm-module":
-        return <ArmModule />;
-      case "science-module":
-        return <ScienceModule />;
-      case "power-module":
-        return <PowerModule />;
-      case "intelligent-systems-module":
-        return <IntelligentSystemsModule />;
       case "xhr-test-module":
         return <XHRTestModule />;
-      case "compass-module":
-        return <CompassModule />;
-      case "drive-module":
-        return <DriveModule />;
-      case "video-stream-module":
-        return <VideoStreamModule />;
-      case "location-services-module":
-        return <LocationServicesModule />;
       default:
         return <p>{moduleName} does not exist</p>;
     }
