@@ -10,7 +10,7 @@
 2. Clone the respository: 
     - ```git clone https://github.com/SJSURoboticsTeam/MissionControl2020```
 3. Navigate into the repo
-    - ```cd missioncontrol2019```
+    - ```cd MissionControl2020```
 4. Install dependencies using Node Package Manager (npm)
     - ```npm install```
 5. Serve the project into your browser
