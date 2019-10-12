@@ -37,9 +37,11 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "mocha",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint src"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.3",
     "chai": "^4.2.0",
     "mocha": "^5.2.0"
   },
