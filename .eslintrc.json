@@ -46,6 +46,28 @@
                 ]
             }
         ],
-        "no-console": 2
+        "no-console": 2,
+        "block-spacing": "error",
+        "keyword-spacing": "error",
+        "space-before-function-paren": [
+            "error",
+            {
+                "anonymous": "never",
+                "named": "never",
+                "asyncArrow": "always"
+            }
+        ],
+        "max-len": [
+            2,
+            {
+                "code": 80
+            }
+        ],
+        "comma-spacing": "error"
+        // "multiline-comment-style": [
+        //     "error",
+        //     "separate-lines"
+        // ]
     }
+    
 }

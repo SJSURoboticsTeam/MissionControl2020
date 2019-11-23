@@ -34,7 +34,7 @@ class App extends React.Component {
   handleDarkTheme = () => {
     if (this.getCookie()) {
       require("./lib/css/darktheme.css");
-    }else{
+    } else {
       require("./lib/css/ModuleContainer.css");
     }
   }

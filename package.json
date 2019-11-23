@@ -2,7 +2,7 @@
   "name": "missioncontrol2019",
   "version": "1.0.0",
   "main": "index.js",
-  "description": "Mission Control 2019",
+  "description": "Mission Control 2020",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SJSURobotics2019/missioncontrol2019.git"
@@ -38,7 +38,7 @@
     "build": "react-scripts build",
     "test": "mocha",
     "eject": "react-scripts eject",
-    "lint": "eslint src"
+    "lint": "./node_modules/.bin/eslint src/"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",

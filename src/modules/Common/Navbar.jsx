@@ -71,7 +71,7 @@ class AppNavbar extends Component {
       <React.Fragment>
         <Navbar color="dark" dark expand="sm">
           <Container>
-            <NavbarBrand href="/">Mission Control 2019</NavbarBrand>
+            <NavbarBrand href="/">Mission Control 2020</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
