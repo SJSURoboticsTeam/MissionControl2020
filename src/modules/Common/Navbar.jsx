@@ -10,10 +10,9 @@ import {
   NavLink,
   Container
 } from "reactstrap";
-import soundfile from "../../lib/css/sp.mp3";
 
 class AppNavbar extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       isOpen: false,
@@ -31,11 +30,6 @@ class AppNavbar extends Component {
     this.setState({ isOpen: !this.state.isOpen });
   }
 
-  handleAudio = () => {
-    let audio = new Audio(soundfile);
-    audio.play();
-  }
-
   openFullscreen = () => {
     let elem = document.documentElement;
     if (elem.requestFullscreen) {
@@ -48,7 +42,7 @@ class AppNavbar extends Component {
       elem.msRequestFullscreen();
     }
   }
-  
+
   /* Close fullscreen */
   closeFullscreen = () => {
     if (document.exitFullscreen) {
@@ -63,7 +57,7 @@ class AppNavbar extends Component {
   }
 
   fullscreenToggle = () => {
-    document.fullscreen ? this.closeFullscreen() : this.openFullscreen()
+    document.fullscreen ? this.closeFullscreen() : this.openFullscreen();
   }
 
   render() {
@@ -75,16 +69,20 @@ class AppNavbar extends Component {
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
-                <Button outline 
+                <Button outline
                   color="primary"
                   onClick={() => this.props.toggleDarkTheme()}>
                   Dark Theme
                 </Button>
                 <NavItem>
-                  <NavLink href="#" onClick={this.fullscreenToggle}>Fullscreen</NavLink>
+                  <NavLink href="#" onClick={this.fullscreenToggle}>
+                    Fullscreen
+                  </NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink onClick={this.handleAudio}>
+                  <NavLink href={"https://github.com/SJSURoboticsTeam" +
+                    "/MissionControl2020"}
+                  target="_blank">
                     Github
                   </NavLink>
                 </NavItem>
