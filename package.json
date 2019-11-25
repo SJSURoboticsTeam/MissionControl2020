@@ -36,14 +36,21 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "mocha",
+    "test": "mocha --require @babel/register --require ignore-styles test/",
     "eject": "react-scripts eject",
     "lint": "./node_modules/.bin/eslint src/"
   },
   "devDependencies": {
+    "@babel/register": "^7.7.4",
     "babel-eslint": "^10.0.3",
     "chai": "^4.2.0",
-    "mocha": "^5.2.0"
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
+    "ignore-styles": "^5.0.1",
+    "jsdom": "15.2.1",
+    "jsdom-global": "3.0.2",
+    "mocha": "^5.2.0",
+    "sinon": "^7.5.0"
   },
   "browserslist": [
     ">0.2%",
