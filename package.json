@@ -38,7 +38,7 @@
     "build": "react-scripts build",
     "test": "mocha --require @babel/register --require ignore-styles test/",
     "eject": "react-scripts eject",
-    "lint": "./node_modules/.bin/eslint src/"
+    "lint": "./node_modules/.bin/eslint src/ test/"
   },
   "devDependencies": {
     "@babel/register": "^7.7.4",
